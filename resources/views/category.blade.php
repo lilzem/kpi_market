@@ -3,12 +3,11 @@
 @section('title', 'Категорія - ' . $category->name)
 
 @section('content')
-    <div>
+    <div class="items">
         @foreach ($category->items as $item)
-            <div>
-                <div><img src="{{ $item->getImageURI() }}"></div>
-                <div>{{ $item->name }}</div>
-                <div>{{ $item->description }}</div>
+            <div class="item">
+                <div><img src="{{ $item->getImageURI() }}" width="150px" height="120px"></div>
+                <div id="name">{{ $item->name }}</div>
             </div>
         @endforeach
     </div>

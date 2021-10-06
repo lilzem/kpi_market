@@ -15,13 +15,67 @@ class ItemsSeeder extends Seeder
     public function run()
     {
         $categories = [
+            
             'weapons' => [ 
                 [
                     'name' => 'Дезолятор',
                     'image' => 'desolator.jpg',
-                    'description' => 'хуй'
+                    'description' => ''
                 ]
+            ],
+
+            'magical' => [
+                [
+                    'name' => 'Покрив розбрату',
+                    'image' => 'VeilOfDiscord.png',
+                    'description' => ''
+                ],
+
+                [
+                    'name' => 'Мерехтливий плащ',
+                    'image' => 'Glimmer.png',
+                    'description' => ''
+                ],
+
+                [
+                    'name' => 'Посох примусу',
+                    'image' => 'forceStuff.png',
+                    'description' => ''
+                ],
+
+                [
+                    'name' => 'Ефірні лінзи',
+                    'image' => 'aetherLens.png',
+                    'description' => ''
+                ],
+
+                [
+                    'name' => 'Божествений скіпетр Еула',
+                    'image' => 'eulsScepter.png',
+                    'description' => ''
+                ],
+
+                [
+                    'name' => 'Патериця Атоса',
+                    'image' => 'RodOfAtos.png',
+                    'description' => ''
+                ],
+
+
+                [
+                    'name' => 'Скіпетр Аганіма',
+                    'image' => 'Aghanim.png',
+                    'description' => ''
+                ],
+
+                [
+                    'name' => 'Сфера відновлення',
+                    'image' => 'Refresher.png',
+                    'description' => ''
+                ],
+
             ]
+            
         ];
 
         foreach ($categories as $category => $items) {
