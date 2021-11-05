@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <link rel="shortcut icon" href="/images/ico.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://kit.fontawesome.com/7b74a90834.js" crossorigin="anonymous"></script>
-
+    <script src="/js/app.js" type="text/javascript" defer></script>
 </head>
 
 <body>
@@ -16,4 +17,5 @@
     <main>@yield('content')</main>
     @include('parts.footer')
 </body>
+
 </html>

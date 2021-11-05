@@ -1,4 +1,4 @@
-@extends('parts.app')
+@extends('layouts.main')
 
 @section('title', 'Home')
 

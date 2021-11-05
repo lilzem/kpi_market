@@ -26,8 +26,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        View::creator('parts.header', function (ViewView $view) {
-            $view->with('_categories', Category::all());
-        });
+
     }
 }

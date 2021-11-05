@@ -1,4 +1,4 @@
-@extends('parts.app')
+@extends('layouts.main')
 
 @section('title', 'LogIn')
 
@@ -12,8 +12,7 @@
         <div class="dws-input">
             <input type="password" name="password" placeholder="Пароль">
         </div>
-        <input class="submit" type="submit" name="button" value="Вхід"\>
+        <input class="btn" type="submit" name="button" value="Вхід" \>
     </form>
 </div>
 @endsection
-
