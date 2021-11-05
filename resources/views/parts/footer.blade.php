@@ -1,5 +1,6 @@
 <footer>
-    <div class="logo">
-        <a href="https://www.instagram.com/zemlanoy_duh/"> <i class="fas fa-user"></i> </a> 
+    <div class="icons">
+        <a href="https://www.instagram.com/zemlanoy_duh/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a> 
+        <a href="https://t.me/joinchat/ofEJwIwW_JNhMTli" target="_blank"><i class="fab fa-telegram-plane fa-lg" ></i></a>
     </div>    
 </footer>
