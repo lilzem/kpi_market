@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'index'])->name('home');
-Route::get('/logIn', [PageController::class, 'logIn'])->name('login'); 
+Route::get('/logIn', [PageController::class, 'logIn'])->name('login');
 Route::get('/categories/{category:slug}', [CategoryController::class, 'show'])->name('categories.show');
