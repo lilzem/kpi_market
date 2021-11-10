@@ -6,5 +6,14 @@
         <a href="https://t.me/joinchat/ofEJwIwW_JNhMTli" target="_blank">
             <i class="fab fa-telegram-plane fa-lg"></i>
         </a>
+        <a href="" target="_blank">
+            <i class="fab fa-facebook-square fa-lg"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fab fa-twitter-square fa-lg"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fab fa-pinterest fa-lg"></i>
+        </a>
     </div>
 </footer>

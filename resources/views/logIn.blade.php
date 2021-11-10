@@ -4,8 +4,8 @@
 
 @section('content')
 <div class="form">
-    <img src="images/ico.png">
     <form action="main.html" method="POST">
+        <img src="images/ico.png">
         <div class="dws-input">
             <input type="text" name="login" placeholder="Логін">
         </div>

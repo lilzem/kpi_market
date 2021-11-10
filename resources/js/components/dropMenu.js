@@ -1,8 +1,10 @@
-document.querySelectorAll('.menu__container').forEach((element) => {
-    const menuClassList = element.querySelector('.nav__menu').classList;
+//document.querySelectorAll('.menu__container').forEach((element) => {
+//$('.menu__container').each((index, element) => {
+//const menuClassList = element.querySelector('.nav__menu').classList;
+const el = $('.menu__container');
+const menu = el.children('.nav__menu').first();
 
-    element.addEventListener('mouseenter', _ => menuClassList.add('show'));
+el.on('mouseenter', _ => menu.addClass('show'));
 
-    element.addEventListener('mouseleave', _ => menuClassList.remove('show'));
-});
-
+el.on('mouseleave', _ => menu.removeClass('show'));
+//});
