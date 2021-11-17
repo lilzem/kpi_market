@@ -16,4 +16,5 @@
             <i class="fab fa-pinterest fa-lg"></i>
         </a>
     </div>
+    <a class="feedback__link" href="{{ route('feedback.index') }}">Зв'яжіться з нами</a>
 </footer>

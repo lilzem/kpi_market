@@ -15,4 +15,6 @@ class PageController extends Controller
     public function logIn() {
         return view('logIn');
     }
-}
+
+}   
+

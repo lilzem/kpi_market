@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\FeedbackController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,5 +17,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'index'])->name('home');
+
 Route::get('/logIn', [PageController::class, 'logIn'])->name('login');
+
 Route::get('/categories/{category:slug}', [CategoryController::class, 'show'])->name('categories.show');
+
+Route::group(['prefix' => '/feedback', 'as' => 'feedback.'], function () {
+    Route::get('/', [FeedbackController::class, 'index'])->name('index');
+    Route::post('/', [FeedbackController::class, 'store'])->name('store');
+});

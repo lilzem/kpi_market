@@ -6,7 +6,7 @@
                     <img src="/images/ico.png" width="60px" alt="icon">
                 </a>
             </li>
-            @if ($currentRouteName != 'login')
+            @if (!in_array($currentRouteName, ['login', 'feedback.index']))
             <li class="nav__item menu__container">
                 <span class="menu__title">{{ $category->name }}</span>
                 <ul class="nav__menu">
